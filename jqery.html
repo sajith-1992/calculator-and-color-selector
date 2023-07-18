@@ -8,17 +8,17 @@
 <body>
     
     <button id="btn">click me</button>
-    
+    <div style="width: 300px; height: 300px;background-color:rgb(204, 245, 20)" id="div1"></div>
     <script
-    src="https://code.jquery.com/jquery-3.7.0.slim.min.js"
-    integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE="
+    src="https://code.jquery.com/jquery-3.7.0.js"
+    integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
     crossorigin="anonymous"></script>
-  
+    
     <script>
      $(document).ready(function(){
         $("#btn").click(function(){
             // alert("sajith")
-            $(this).hide()
+        $("#div1").toggle(6000)
         })
         $("#btn").mouseenter(function(){
         $(this).css({"background":"red"})
