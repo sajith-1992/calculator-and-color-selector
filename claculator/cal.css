@@ -1,0 +1,27 @@
+.cal{
+    width: 400px;
+    height: 500px;
+    background-color: black;
+    padding-top: 10px;
+
+}
+#screen{
+    width: 343px;
+    height: 94px;
+
+
+
+
+    background-color: rgb(216, 197, 197);
+    margin-left: 10px;
+    
+
+}
+.button{
+    padding-left: 60px;
+
+}
+  
+
+    
+    

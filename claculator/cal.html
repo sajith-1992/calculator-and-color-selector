@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="cal.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="cal">
+        <div class="screen" >
+            <input type="text" id="screen">
+
+        </div>
+        <div class="button" >
+            <table class ="tabel " style="width: 300px;height: 300px;">
+                <tr>
+                    <td><button onclick="cleardisplay()">c</button></td>
+                    
+                </tr>
+                
+                
+                <tr>
+                  <td><button onclick="press(1)">1</button></td>
+                  <td><button onclick="press(2)">2</button></td>
+                  <td><button onclick="press(3)">3</button></td>
+                  <td><button onclick="press('+')">+</button></td>
+                </tr>
+                <tr>
+                  <td><button onclick="press(4)">4</button></td>
+                  <td><button onclick="press(5)">5</button></td>
+                  <td><button onclick="press(6)">6</button></td>
+                  <td><button onclick="press('-')">-</button></td>
+                </tr>
+                <tr>
+                  <td><button onclick="press(7)">7</button></td>
+                  <td><button onclick="press(8)">8</button></td>
+                  <td><button onclick="press(9)">9</button></td>
+                  <td><button onclick="press('/')">/</button></td>
+                </tr>
+                
+              </table>
+
+        </div>
+
+    </div>
+</body>
+</html>
