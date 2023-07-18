@@ -6,7 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <input type="text" id="inp">
+    <label id="lab" style="display: none;" >enter minimum for 4</label>
+    <input type="text">
     <button id="btn">click me</button>
     <div style="width: 300px; height: 300px;background-color:rgb(204, 245, 20)" id="div1"></div>
     <script
@@ -20,8 +22,18 @@
             // alert("sajith")
         $("#div1").toggle(6000)
         })
+
         $("#btn").mouseenter(function(){
         $(this).css({"background":"red"})
+        }
+        )
+        $("#inp").blur(function(){
+            var text=$(this).val()
+            if(text.length<4){
+                $("#lab").show()
+            }else{
+                $("#lab").hide()
+            }
         })
      })
     </script>
