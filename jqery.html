@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <button id="btn">click me</button>
+    
+    <script
+    src="https://code.jquery.com/jquery-3.7.0.slim.min.js"
+    integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE="
+    crossorigin="anonymous"></script>
+  
+    <script>
+     $(document).ready(function(){
+        $("#btn").click(function(){
+            alert("sajith")
+        })
+        $("#btn").mouseenter(function(){
+        $(this).css({"background":"red"})
+        })
+     })
+    </script>
+</body>
+</html>
