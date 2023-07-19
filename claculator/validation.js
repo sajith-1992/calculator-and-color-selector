@@ -15,11 +15,18 @@ $(document).ready(function(){
 
             day:{
                 required:true
-            }
+            },
+
+
+        },
+        messages:{
+            fname:{
+            required:"enter firstname ",
+            minlength:"enter minimum 4"
 
         }
 
 
-    })
+    }})
 
 })
